@@ -1,0 +1,5 @@
+# ignore Project1/Debug folder
+Project1/Debug/
+
+# ignore Project1/.vs folder
+Project1/.vs
