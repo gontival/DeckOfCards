@@ -18,7 +18,7 @@
     <ClCompile Include="..\..\Working\Working\Card.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Working\Working\DeckProject.cpp">
+    <ClCompile Include="DeckProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

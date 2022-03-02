@@ -141,7 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Working\Working\Card.cpp" />
-    <ClCompile Include="..\..\Working\Working\DeckProject.cpp" />
+    <ClCompile Include="DeckProject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Working\Working\Card.h" />
