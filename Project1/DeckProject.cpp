@@ -28,16 +28,8 @@
 int main() {
 
 	printf("/-------------- DeckOfCards----------------- /\n");
-	Rank r1 = A;
-	Suit s1 = S;
-
-	Card c1(s1, r1);
-	c1.showName();
-
-	Rank r2 = two;
-	Suit s2 = D;
-	Card c2(s2, r2);
-	c2.showName();
+	char jlDeckName[] =  "jlDeck" ;
+	Deck d1(jlDeckName);
 
 	return 0;
 }
