@@ -30,7 +30,7 @@ public:
 
 				Card c(s, r);
 				c.showName();
-				_cards[i] = c;
+				_cards[i++] = c;
 			}
 		}
 		setName(name);
