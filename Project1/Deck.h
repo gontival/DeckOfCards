@@ -14,6 +14,7 @@ class Deck
 {
 	Card _cards[deckSize];
 	char _name[deckNameSize];
+	int _remaining = 0;
 
 public:
 
@@ -37,7 +38,7 @@ public:
 			}
 		}
 		setName(name);
-
+		_remaining = i;
 		std::cout << "Deck " << _name << " created" << std::endl;
 	}
 
@@ -90,12 +91,12 @@ public:
 	const Card& deal_card() {
 		// Take the last card of the deck 
 		Card* c;
-		c = &_cards[deck_size() - 1];
+		c = &_cards[_remaining-1];
 
-		// Remove the last card of the deck
-		/*delete _cards[deck_size() - 1];*/
+		// Reduce the number of remaining cards
+		_remaining--;
 
-		std::cout << "deal_card " << std::endl;
+		std::cout << "----- deal_card -----" << std::endl;
 		c->getName();
 		return *c;
 	}
@@ -103,7 +104,8 @@ public:
 	/**Utility functions**/
 	//int remaining(); => same as deck_size ?
 	int deck_size() {
-		return sizeof(_cards) / sizeof(_cards[0]);
+		//return sizeof(_cards) / sizeof(_cards[0]);
+		return _remaining;
 	}
 };
 

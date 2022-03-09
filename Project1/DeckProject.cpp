@@ -9,25 +9,23 @@
 // 1 or more decks
 
 
-// random card rand() with current time
-//void shuffle_deck();
-
-// deal a single card from the deck and reduce the number of card of the deck by 1
-//const Card & deal_card()
-
-// Create a new deck with n cards
-//void new_deck();
-
 int main() {
 
 	printf("/-------------- DeckOfCards----------------- /\n");
 	char jlDeckName[] =  "jlDeck" ;
 	Deck d1(jlDeckName);
+	int nbCardToDeal = 52;
+
 	std::cout << "size: " << d1.deck_size() << std::endl;
 
 	 d1.shuffle_deck();
-	/*Card c = d1.deal_card();*/
-	/*c.showName();*/
+
+	 for (int i = 0; i < nbCardToDeal; i++) {
+		 Card c = d1.deal_card();
+		 c.showName();
+
+		 std::cout << "remaining cards : " << d1.deck_size() << std::endl;
+	 }
 	
 
 	return 0;

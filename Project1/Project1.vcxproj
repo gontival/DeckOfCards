@@ -140,11 +140,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\deal_cards.cpp" />
+    <ClCompile Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\deck.cpp" />
     <ClCompile Include="..\..\Working\Working\Card.cpp" />
     <ClCompile Include="Deck.cpp" />
     <ClCompile Include="DeckProject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\bwexception.h" />
+    <ClInclude Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\deck.h" />
     <ClInclude Include="..\..\Working\Working\Card.h" />
     <ClInclude Include="Deck.h" />
   </ItemGroup>

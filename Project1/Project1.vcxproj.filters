@@ -24,12 +24,24 @@
     <ClCompile Include="Deck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\deal_cards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Working\Working\Card.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\bwexception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Ex_Files_C_Plus_Plus_EssT\Exercise Files\Chap10\deck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
