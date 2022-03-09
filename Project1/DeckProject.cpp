@@ -18,18 +18,17 @@
 // Create a new deck with n cards
 //void new_deck();
 
-// utility functions
-//int remaining();
-//int deck_size();
-
-// pointer to the array of cards
-//const Card * deck();
-
 int main() {
 
 	printf("/-------------- DeckOfCards----------------- /\n");
 	char jlDeckName[] =  "jlDeck" ;
 	Deck d1(jlDeckName);
+	std::cout << "size: " << d1.deck_size() << std::endl;
+
+	 d1.shuffle_deck();
+	/*Card c = d1.deal_card();*/
+	/*c.showName();*/
+	
 
 	return 0;
 }
